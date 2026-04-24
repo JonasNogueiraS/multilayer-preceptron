@@ -17,16 +17,16 @@ O problema do XOR é historicamente significativo na Inteligência Artificial po
 
 O script foi organizado para separar as responsabilidades matemáticas, facilitando o estudo de cada etapa:
 
-1.  **Funções de Ativação**: Implementação manual da Sigmoid e ReLU, além de suas respectivas derivadas.
-2.  **Cálculo de Erro**: Função dedicada para a derivada da BCE combinada com a Sigmoid ($y_{previsto} - y_{real}$).
-3.  **Feedforward**: Processamento das entradas através de somas ponderadas e ativações.
-4.  **Backpropagation**: Retropropagação do erro da saída para a camada oculta.
-5.  **Atualização**: Ajuste dos pesos ($W$) e bias ($b$) com base nos gradientes calculados.
+1. **Funções de Ativação**: Implementação manual da Sigmoid e ReLU, além de suas respectivas derivadas.
+2. **Cálculo de Erro**: Função dedicada para a derivada da BCE combinada com a Sigmoid ($y_{previsto} - y_{real}$).
+3. **Feedforward**: Processamento das entradas através de somas ponderadas e ativações.
+4. **Backpropagation**: Retropropagação do erro da saída para a camada oculta.
+5. **Atualização**: Ajuste dos pesos ($W$) e bias ($b$) com base nos gradientes calculados.
 
 ## 🚀 Como Executar
 
-Não há necessidade de instalar dependências. Basta ter o Python instalado.
+Não há necessidade de instalar dependências. Basta ter o Python instalado (versão 3.x recomendada).
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+   git clone [https://github.com/JonasNogueiraS/multilayer-preceptron.git](https://github.com/JonasNogueiraS/multilayer-preceptron.git)
